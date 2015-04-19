@@ -1,0 +1,46 @@
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+}
+
+hr {
+	text-align: center;
+}
+
+body,p {
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+}
+
+#hero {
+	background: url("//s3.amazonaws.com/vkbwebprint/trevor-rahshun-web.jpg") no-repeat top center scroll;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#hero h1,h3 {
+	text-align: center;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(50%);
+}
+
+#info {
+	background-color: #222222;
+}
+
+quote {
+	padding: 15% 0;
+	text-align: center;
+}
+
+footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
