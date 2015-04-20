@@ -51,6 +51,14 @@ body,p {
     transform: translateY(-50%);
 }
 
+#hero .hero h1 {
+    color: #000;
+}
+
+#hero .hero h3 {
+    color: #000;
+}
+
 #info {
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -73,6 +81,15 @@ body,p {
   	background-size: cover;
   	height: 100vh;
   	width: 100%;
+}
+
+form label {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+a.button {
+    font-weight: 700;
 }
 
 #quote:before {
