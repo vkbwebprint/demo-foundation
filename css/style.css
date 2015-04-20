@@ -1,44 +1,107 @@
+html {
+	background-color: #efefef;
+	color: #222;
+}
+
 h1,h2,h3,h4,h5,h6 {
-	font-family: "Raleway", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-weight: 700;
+	color: #222;
 }
 
 hr {
+	color: #222;
 	text-align: center;
 }
 
 body,p {
-	font-family: "Raleway", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 }
 
 #hero {
-	background: url("//s3.amazonaws.com/vkbwebprint/trevor-rahshun-web.jpg") no-repeat top center scroll;
+	background: url("//s3.amazonaws.com/vkbwebprint/handwraps-web.jpg") no-repeat top center;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+  	height: 100vh;
+  	width: 100%;
 }
 
-#hero h1,h3 {
-	text-align: center;
+#hero:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-linear-gradient(#fff,#fff);
+    -moz-linear-gradient(#fff,#fff);
+    -o-linear-gradient(#fff,#fff);
+    -ms-linear-gradient(#fff,#fff);
+    background-image: linear-gradient(#fff,#fff);
+    opacity: .25;
+}
+
+#hero .hero {
+    text-align: center;
 	position: relative;
-  	top: 50%;
-  	transform: translateY(50%);
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #info {
-	background-color: #222222;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 100vh;
 }
 
-quote {
-	padding: 15% 0;
-	text-align: center;
+#info .info {
+    position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+#quote {
+	background: url("//s3.amazonaws.com/vkbwebprint/trevor-rahshun-web.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 100vh;
+  	width: 100%;
+}
+
+#quote:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-linear-gradient(#fff,#fff);
+    -moz-linear-gradient(#fff,#fff);
+    -o-linear-gradient(#fff,#fff);
+    -ms-linear-gradient(#fff,#fff);
+    background-image: linear-gradient(#fff, #fff);
+    opacity: .25;
+}
+
+#quote .quote {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#quote .quote h1 {
+    color: #fff;
 }
 
 footer {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
+	font: 700 "Roboto", sans-serif;
     text-align: center;
     left: 0px;
     right: 0px;
