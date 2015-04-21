@@ -1,26 +1,17 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+# demo-foundation
 
+Example of a personal/résumé website
 
-Hi there! Welcome to Cloud9 IDE!
+Built on Foundation 5.5.1
 
-To get you started, we included a small hello world application.
+# Credits
 
-1) Open the hello-world.html file
+Photo 1 [Kimberly Joy Photography]
 
-2) Click on the Preview button to open a live preview pane
+Photo 2 [Alethea Delmage]
 
-3) Make some changes to the file, save, watch the preview, and have fun!
+Framework [Foundation]
 
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+[Kimberly Joy Photography]:www.kimberlyjoyphotography.com
+[Alethea Delmage]:www.imdb.com/name/nm5247559
+[Foundation]:http://foundation.zurb.com
